@@ -13,6 +13,7 @@ exec --no-startup-id feh --bg-scale /usr/share/kde4/apps/ksplash/Themes/mintkde/
 exec synapse
 
 for_window [title="KShutdown"] floating enable
+for_window [class="Systemsettings"] floating enable
 
 set $mod Mod4
 

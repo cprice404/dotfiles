@@ -1,6 +1,6 @@
 [core]
 	editor = vim
-	excludesfile = /home/cprice/.gitignore
+	excludesfile = /home/cprice/.gitignore-global
 [user]
 	name = Chris Price
 	email = chris@puppetlabs.com

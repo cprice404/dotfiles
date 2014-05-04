@@ -9,6 +9,7 @@
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
+exec --no-startup-id feh --bg-scale /usr/share/kde4/apps/ksplash/Themes/mintkde/1920x1200/background.png
 exec synapse
 
 set $mod Mod4

@@ -57,7 +57,6 @@ plugins=(git command-not-found)
 
 source $ZSH/oh-my-zsh.sh
 
-source ~/.zsh_aliases
 # User configuration
 
 #export PATH="/home/cprice/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"

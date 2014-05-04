@@ -1,0 +1,2 @@
+export COLORFGBG="15;0"
+source /etc/zsh_command_not_found

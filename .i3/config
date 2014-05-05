@@ -10,7 +10,8 @@
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
 exec --no-startup-id feh --bg-scale /usr/share/kde4/apps/ksplash/Themes/mintkde/1920x1200/background.png
-exec synapse
+exec --no-startup-id nm-applet
+exec --no-startup-id synapse
 
 for_window [title="KShutdown"] floating enable
 for_window [class="Systemsettings"] floating enable

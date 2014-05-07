@@ -1,4 +1,5 @@
 export COLORFGBG="15;0"
+export AUTOJUMP_KEEP_SYMLINKS=1
 
 # set PATH so it includes rbenv bin if it exists
 if [ -d "$HOME/.rbenv/bin" ] ; then

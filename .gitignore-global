@@ -3,3 +3,4 @@
 *.iws
 .idea
 .ruby-version
+.lein-failures

@@ -80,4 +80,6 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
+zstyle ':completion:*' completer _complete _ignored _files
+
 eval "$(rbenv init -)"

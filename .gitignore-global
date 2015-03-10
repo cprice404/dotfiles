@@ -4,3 +4,5 @@
 .idea
 .ruby-version
 .lein-failures
+bundle
+run-tests.sh

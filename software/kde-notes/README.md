@@ -6,6 +6,8 @@ synapse (from ppa)
 kshutdown
 zsh
 network-manager-gnome
+network-manager-openvpn-gnome
+autojump
 
 symlink: 
 ln -s /home/cprice/software/xsessions/i3+kde.desktop /usr/share/xsessions

@@ -7,7 +7,8 @@ if [ -d "$HOME/.rbenv/bin" ] ; then
 fi
 
 PUPPET_ROOT_DIR="$HOME/work/jvm-puppet"
-PUPPET_SCRATCH_DIR="$PUPPET_ROOT_DIR/conf"
+PUPPET_SCRATCH_DIR="$PUPPET_ROOT_DIR/scratch"
+PUPPET_CONF_DIR="$PUPPET_ROOT_DIR/conf"
 PUPPET_SOURCE_DIR="$PUPPET_ROOT_DIR/git/puppet-server/ruby/puppet"
 FACTER_SOURCE_DIR="$PUPPET_ROOT_DIR/git/puppet-server/ruby/facter"
 PUPPETDB_SOURCE_DIR="$PUPPET_ROOT_DIR/git/puppetdb"

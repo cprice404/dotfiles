@@ -6,3 +6,4 @@
 .lein-failures
 bundle
 run-tests.sh
+.nrepl-port

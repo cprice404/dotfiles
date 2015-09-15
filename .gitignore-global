@@ -3,3 +3,7 @@
 *.iws
 .idea
 .ruby-version
+.metadata
+.project
+.settings
+.nrepl-port

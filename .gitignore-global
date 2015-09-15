@@ -7,3 +7,4 @@
 .project
 .settings
 .nrepl-port
+figwheel_server.log

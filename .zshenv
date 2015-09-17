@@ -6,10 +6,10 @@ if [ -d "$HOME/.rbenv/bin" ] ; then
     PATH="$HOME/.rbenv/bin:$PATH"
 fi
 
-PUPPET_ROOT_DIR="$HOME/work/jvm-puppet"
+PUPPET_ROOT_DIR="$HOME/work/puppet/puppet-server"
 PUPPET_SCRATCH_DIR="$PUPPET_ROOT_DIR/scratch"
-PUPPET_SOURCE_DIR="$PUPPET_ROOT_DIR/git/jvm-puppet/ruby/puppet"
-FACTER_SOURCE_DIR="$PUPPET_ROOT_DIR/git/jvm-puppet/ruby/facter"
+PUPPET_SOURCE_DIR="$PUPPET_ROOT_DIR/git/puppet-server/ruby/puppet"
+FACTER_SOURCE_DIR="$PUPPET_ROOT_DIR/git/puppet-server/ruby/facter"
 PUPPETDB_SOURCE_DIR="$PUPPET_ROOT_DIR/git/puppetdb"
 
 alias runmaster="echo \"puppet master --autosign=true --no-daemonize --debug --verbose --confdir=$PUPPET_SCRATCH_DIR/master/conf --vardir=$PUPPET_SCRATCH_DIR/master/var --certname localhost\""

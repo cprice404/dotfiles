@@ -1,11 +1,12 @@
 export COLORFGBG="15;0"
+export AUTOJUMP_KEEP_SYMLINKS=1
 
 # set PATH so it includes rbenv bin if it exists
 if [ -d "$HOME/.rbenv/bin" ] ; then
     PATH="$HOME/.rbenv/bin:$PATH"
 fi
 
-PUPPET_ROOT_DIR="$HOME/work/puppet/jvm-puppet"
+PUPPET_ROOT_DIR="$HOME/work/puppet/puppet-server"
 PUPPET_SCRATCH_DIR="$PUPPET_ROOT_DIR/scratch"
 PUPPET_CONF_DIR="$PUPPET_ROOT_DIR/conf"
 PUPPET_SOURCE_DIR="$PUPPET_ROOT_DIR/git/puppet-server/ruby/puppet"

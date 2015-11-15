@@ -53,9 +53,25 @@ ZSH_THEME="cprice"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git command-not-found autojump catimg common-aliases debian
-	 dirhistory encode64 jira jsontools lein mvn nyan
-	 per-directory-history urltools vagrant web-search) 
+plugins=(
+         git
+         command-not-found
+         autojump
+         catimg
+         common-aliases
+         debian
+	 dirhistory
+         encode64
+         jira
+         jsontools
+         lein
+         mvn
+         nyan
+	 per-directory-history
+         urltools
+         vagrant
+         web-search
+        ) 
 
 source $ZSH/oh-my-zsh.sh
 
@@ -83,3 +99,4 @@ source $ZSH/oh-my-zsh.sh
 zstyle ':completion:*' completer _complete _ignored _files
 
 eval "$(rbenv init -)"
+alias fuck='eval $(thefuck $(fc -ln | tail -n 2 |head -n 1)); fc -R'

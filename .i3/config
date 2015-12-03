@@ -100,8 +100,6 @@ bindsym $mod+a focus parent
 
 workspace 1 output DVI-I-1
 workspace 2 output DVI-I-1
-workspace 10 output DVI-I-2
-workspace 9 output DVI-I-2
 
 # switch to workspace
 bindsym $mod+1 workspace 1

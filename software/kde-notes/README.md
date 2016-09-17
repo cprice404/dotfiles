@@ -1,14 +1,16 @@
 #### packages
 
+```
 i3
 i3status
 feh
-//synapse (from ppa)
-//kshutdown (not available on 16.04 yet, wired i3 config to use qdbus for now)
+#synapse (from ppa)
+#kshutdown (not available on 16.04 yet, wired i3 config to use qdbus for now)
 zsh
-//network-manager-gnome
-//network-manager-openvpn-gnome
+#network-manager-gnome
+#network-manager-openvpn-gnome
 autojump
+```
 
 #### KDE
 
@@ -29,6 +31,7 @@ non-intuitive 'status notifier', which actually prevents applets from
 showing up in the system tray
 
 //"force font dpi" in kde application appearance settings; using 160 right now
+
 //Increase all icon sizes by one level in kde app appearance settings
 
 #### zsh

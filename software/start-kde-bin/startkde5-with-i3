@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# force window manager to be i3
+export KDEWM=i3
+startkde

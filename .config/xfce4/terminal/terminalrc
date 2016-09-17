@@ -21,4 +21,4 @@ ScrollingLines=100000
 ColorPalette=#000000000000;#aaaa00000000;#0000aaaa0000;#aaaa55550000;#00000000aaaa;#ffff0000ffff;#0000dc28dc28;#aaaaaaaaaaaa;#555555555555;#ffff55555555;#5555ffff5555;#ffffffff5555;#55555555ffff;#ffff5555ffff;#5555ffffffff;#ffffffffffff
 BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
 FontName=DejaVu Sans Mono 11
-
+ColorBackground=#000000000000

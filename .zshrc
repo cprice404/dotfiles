@@ -50,6 +50,7 @@ ZSH_THEME="cprice"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(
          #git
+         #gitfast
          command-not-found
          #autojump
          fasd
@@ -66,7 +67,7 @@ plugins=(
 	 per-directory-history
          #urltools
          #vagrant
-         #web-search
+         web-search
         ) 
 
 source $ZSH/oh-my-zsh.sh

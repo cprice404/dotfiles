@@ -5,6 +5,9 @@ export AUTOJUMP_KEEP_SYMLINKS=1
 if [ -d "$HOME/.rbenv/bin" ] ; then
     PATH="$HOME/.rbenv/bin:$PATH"
 fi
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
+fi
 
 PUPPET_ROOT_DIR="$HOME/work/puppetserver"
 PUPPET_SCRATCH_DIR="$PUPPET_ROOT_DIR/scratch"

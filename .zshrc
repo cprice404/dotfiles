@@ -51,11 +51,12 @@ ZSH_THEME="cprice"
 plugins=(
          #git
          command-not-found
-         autojump
-         #catimg
+         #autojump
+         fasd
+         catimg
          #common-aliases
          #debian
-	 #dirhistory
+	 dirhistory
          #encode64
          #jira
          #jsontools
@@ -96,3 +97,5 @@ source $ZSH/oh-my-zsh.sh
 eval "$(rbenv init -)"
 alias fuck='eval $(thefuck $(fc -ln | tail -n 2 |head -n 1)); fc -R'
 alias FUCK='fuck'
+
+alias o='a -e xdg-open'

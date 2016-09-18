@@ -9,7 +9,7 @@ feh
 zsh
 #network-manager-gnome
 #network-manager-openvpn-gnome
-autojump
+#autojump
 ```
 
 #### KDE
@@ -46,6 +46,14 @@ chsh -s /bin/zsh
 ```
 sudo apt install python3-dev python3-pip python3-setuptools
 sudo -H pip3 install wheel thefuck
+```
+
+#### fasd
+
+```
+sudo add-apt-repository ppa:aacebedo/fasd
+sudo apt update
+sudo apt install fasd
 ```
 
 #### krunner

@@ -48,6 +48,12 @@ sudo apt install python3-dev python3-pip python3-setuptools
 sudo -H pip3 install wheel thefuck
 ```
 
+#### krunner
+
+System Settings -> Shortcuts -> Global -> krunner
+
+Set "Run Command" to "Meta+D"
+
 #### rbenv
 
 ```

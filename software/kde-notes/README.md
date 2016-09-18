@@ -41,6 +41,13 @@ git clone git@github.com:cprice404/oh-my-zsh ./.oh-my-zsh
 chsh -s /bin/zsh
 ```
 
+#### thefuck
+
+```
+sudo apt install python3-dev python3-pip python3-setuptools
+sudo -H pip3 install wheel thefuck
+```
+
 #### rbenv
 
 ```

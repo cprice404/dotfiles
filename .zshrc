@@ -50,7 +50,7 @@ ZSH_THEME="cprice"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(
          #git
-         #command-not-found
+         command-not-found
          autojump
          #catimg
          #common-aliases
@@ -94,5 +94,5 @@ source $ZSH/oh-my-zsh.sh
 #zstyle ':completion:*' completer _complete _ignored _files
 
 #eval "$(rbenv init -)"
-#alias fuck='eval $(thefuck $(fc -ln -1 | tail -n 1)); fc -R'
-#alias FUCK='fuck'
+alias fuck='eval $(thefuck $(fc -ln | tail -n 2 |head -n 1)); fc -R'
+alias FUCK='fuck'

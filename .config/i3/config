@@ -15,6 +15,8 @@ set $mod Mod4
 exec --no-startup-id feh --bg-scale "/usr/share/wallpapers/Linux Mint/contents/images/1920x1200.png"
 # cprice - start krunner for launching commands
 exec --no-startup-id krunner
+# cprice - start nm-applet for networking
+exec --no-startup-id nm-applet
 
 # cprice - make they system settings dialog float
 for_window [class="systemsettings" instance="systemsettings5"] floating enable

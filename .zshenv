@@ -1,9 +1,13 @@
 export COLORFGBG="15;0"
 export AUTOJUMP_KEEP_SYMLINKS=1
+export EDITOR="vim"
 
 # set PATH so it includes rbenv bin if it exists
 if [ -d "$HOME/.rbenv/bin" ] ; then
     PATH="$HOME/.rbenv/bin:$PATH"
+fi
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
 fi
 
 PUPPET_ROOT_DIR="$HOME/work/puppetserver"

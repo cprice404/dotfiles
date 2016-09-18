@@ -93,6 +93,6 @@ source $ZSH/oh-my-zsh.sh
 
 #zstyle ':completion:*' completer _complete _ignored _files
 
-#eval "$(rbenv init -)"
+eval "$(rbenv init -)"
 alias fuck='eval $(thefuck $(fc -ln | tail -n 2 |head -n 1)); fc -R'
 alias FUCK='fuck'

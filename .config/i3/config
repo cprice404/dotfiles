@@ -18,6 +18,7 @@ exec --no-startup-id krunner
 
 # cprice - make they system settings dialog float
 for_window [class="systemsettings" instance="systemsettings5"] floating enable
+for_window [class="Kmix" instance="kmix"] floating enable
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.

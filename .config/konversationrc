@@ -3,6 +3,7 @@ AliasList=tinyurl /exec tinyurl,sayclip /exec sayclip,fortune /exec fortune,bug 
 
 [Appearance]
 ChannelSplitterSizes=377,156
+ShowNickList=false
 TopicSplitterSizes=28,628
 TreeSplitterSizes=145,533
 

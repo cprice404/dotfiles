@@ -2,6 +2,6 @@ begin
    require 'wirble'
    Wirble.init
    Wirble.colorize
-rescue => e
+rescue LoadError => e
    require 'irb/completion'
 end

@@ -5,11 +5,6 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-#ZSH_THEME="robbyrussell"
-#ZSH_THEME="gianu"
-#ZSH_THEME="tjkirch"
-#ZSH_THEME="gnzh"
-#ZSH_THEME="muse"
 ZSH_THEME="cprice"
 
 # Example aliases
@@ -54,22 +49,24 @@ ZSH_THEME="cprice"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(
-         git
+         #git
+         #gitfast
          command-not-found
-         autojump
+         #autojump
+         fasd
          catimg
-         common-aliases
-         debian
+         #common-aliases
+         #debian
 	 dirhistory
-         encode64
-         jira
-         jsontools
-         lein
-         mvn
-         nyan
+         #encode64
+         #jira
+         #jsontools
+         #lein
+         #mvn
+         #nyan
 	 per-directory-history
-         urltools
-         vagrant
+         #urltools
+         #vagrant
          web-search
         ) 
 
@@ -96,7 +93,10 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
-zstyle ':completion:*' completer _complete _ignored _files
+#zstyle ':completion:*' completer _complete _ignored _files
 
 eval "$(rbenv init -)"
 alias fuck='eval $(thefuck $(fc -ln | tail -n 2 |head -n 1)); fc -R'
+alias FUCK='fuck'
+
+alias o='a -e xdg-open'

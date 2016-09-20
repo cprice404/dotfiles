@@ -7,3 +7,7 @@
 bundle
 run-tests.sh
 .nrepl-port
+.metadata
+.project
+.settings
+figwheel_server.log

@@ -34,13 +34,19 @@ showing up in the system tray
 #### zsh
 
 ```
+ssh-add ...
 git clone git@github.com:robbyrussell/oh-my-zsh ./.oh-my-zsh
 cd .oh-my-zsh
 git remote add cprice git@github.com:cprice404/oh-my-zsh
 git fetch cprice
 git reset --hard cprice/master
-upgrade_oh_my_zsh
 chsh -s /bin/zsh
+```
+
+Log out, log back in.
+
+```
+upgrade_oh_my_zsh
 ```
 
 #### thefuck

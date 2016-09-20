@@ -1,12 +1,9 @@
 #### packages
 
 ```
-i3
-i3status
-feh
+sudo apt install i3 i3status feh zsh xfce4-terminal vim
 #synapse (from ppa)
 #kshutdown (not available on 16.04 yet, wired i3 config to use qdbus for now)
-zsh
 #network-manager-gnome
 #network-manager-openvpn-gnome
 #autojump

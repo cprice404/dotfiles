@@ -76,7 +76,7 @@ Set "Run Command" to "Meta+D"
 git clone https://github.com/sstephenson/rbenv.git ~/.rbenv 
 git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
 sudo apt-get install libc-dev libreadline-dev libssl-dev zlib1g-dev
-rbenv install 1.9.3-p550
+rbenv install 2.1.10
 ```
 
 #### firefox

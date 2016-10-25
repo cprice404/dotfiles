@@ -106,8 +106,8 @@ bindsym $mod+a focus parent
 #bindsym $mod+d focus child
 
 #cprice pin workspace 1/0 to monitors
-workspace 1 output DVI-I-1
-workspace 0 output DVI-I-2
+workspace 1 output DVI-I-2
+workspace 0 output DVI-I-3
 
 # switch to workspace
 bindsym $mod+1 workspace 1

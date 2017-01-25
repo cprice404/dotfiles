@@ -12,3 +12,6 @@
         rsub = "! git submodule init && git submodule update"
 	pr = "! f() { git fetch $1 pull/$2/head:PR-$2-$3 && git checkout PR-$2-$3;}; f"
         prupdate = "! f() { git fetch $1 pull/$2/head && git merge FETCH_HEAD;}; f"
+[user]
+	name = Price
+	email = cpri@amazon.com

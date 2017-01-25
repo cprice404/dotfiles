@@ -1,6 +1,6 @@
 [core]
 	editor = vim
-	excludesfile = /home/cprice/.gitignore-global
+	excludesfile = /Users/cpri/.gitignore-global
 [color]                                                                                     
         ui = true                                                                           
                                                                                             

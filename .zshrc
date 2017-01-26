@@ -95,6 +95,8 @@ source $ZSH/oh-my-zsh.sh
 
 #zstyle ':completion:*' completer _complete _ignored _files
 
+. /usr/local/etc/profile.d/z.sh
+
 export PATH=$HOME/bin:$BRAZIL_CLI_BIN:$PATH
 
 alias bb='brazil-build'

@@ -164,7 +164,8 @@ switcher - q            :   khd -e "mode activate info"
 
 
 # switcher mode
-switcher - r            :   khd -e "reload" # reload config
+switcher - r            :   khd -e "reload" # reload config;\
+                            kwmc config reload
 
 switcher - return       :   open -na /Applications/Hyper.app;\
                             khd -e "mode activate default"

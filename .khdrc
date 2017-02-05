@@ -293,7 +293,7 @@ cmd + alt + ctrl - l    :   kwmc window -mk east wrap
 cmd + alt + ctrl - j    :   kwmc window -mk south wrap
 cmd + alt + ctrl - k    :   kwmc window -mk north wrap
 
-cmd + alt + shift - h           :   kwmc window -s west
+cmd + alt + shift - h      :   kwmc window -s west
 cmd + alt + shift - left   :   kwmc window -s west
 cmd + alt + shift - j      :   kwmc window -s south
 cmd + alt + shift - down   :   kwmc window -s south
@@ -301,6 +301,20 @@ cmd + alt + shift - k      :   kwmc window -s north
 cmd + alt + shift - up     :   kwmc window -s north
 cmd + alt + shift - l      :   kwmc window -s east
 cmd + alt + shift - right  :   kwmc window -s east
+
+cmd + alt - h      :   kwmc window -f west
+cmd + alt - left   :   kwmc window -f west
+cmd + alt - j      :   kwmc window -f south
+cmd + alt - down   :   kwmc window -f south
+cmd + alt - k      :   kwmc window -f north
+cmd + alt - up     :   kwmc window -f north
+cmd + alt - l      :   kwmc window -f east
+cmd + alt - right  :   kwmc window -f east
+
+cmd + alt + ctrl - h     : kwmc display -f prev 
+cmd + alt + ctrl - left  : kwmc display -f prev
+cmd + alt + ctrl - l     : kwmc display -f next 
+cmd + alt + ctrl - right : kwmc display -f next
 
 cmd - 0x2A              :   khd -w "aasvi93@hotmail.com"
 cmd - 7                 :   khd -w "\\"

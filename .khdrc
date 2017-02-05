@@ -198,15 +198,23 @@ switcher + shift - 3    :   kwmc display -f 2
 
 # swap mode
 swap - h                :   kwmc window -s west
+swap - left             :   kwmc window -s west
 swap - j                :   kwmc window -s south
+swap - down             :   kwmc window -s south
 swap - k                :   kwmc window -s north
+swap - up               :   kwmc window -s north
 swap - l                :   kwmc window -s east
+swap - right            :   kwmc window -s east
 swap - m                :   kwmc window -s mark
 
 swap + shift - k        :   kwmc window -m north
+swap + shift - up       :   kwmc window -m north
 swap + shift - l        :   kwmc window -m east
+swap + shift - right    :   kwmc window -m east
 swap + shift - j        :   kwmc window -m south
+swap + shift - down     :   kwmc window -m south
 swap + shift - h        :   kwmc window -m west
+swap + shift - left     :   kwmc window -m west
 swap + shift - m        :   kwmc window -m mark
 
 swap - 1                :   kwmc window -m space 1
@@ -284,6 +292,15 @@ cmd + alt + ctrl - h    :   kwmc window -mk west wrap
 cmd + alt + ctrl - l    :   kwmc window -mk east wrap
 cmd + alt + ctrl - j    :   kwmc window -mk south wrap
 cmd + alt + ctrl - k    :   kwmc window -mk north wrap
+
+cmd + alt + shift - h           :   kwmc window -s west
+cmd + alt + shift - left   :   kwmc window -s west
+cmd + alt + shift - j      :   kwmc window -s south
+cmd + alt + shift - down   :   kwmc window -s south
+cmd + alt + shift - k      :   kwmc window -s north
+cmd + alt + shift - up     :   kwmc window -s north
+cmd + alt + shift - l      :   kwmc window -s east
+cmd + alt + shift - right  :   kwmc window -s east
 
 cmd - 0x2A              :   khd -w "aasvi93@hotmail.com"
 cmd - 7                 :   khd -w "\\"

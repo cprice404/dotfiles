@@ -316,6 +316,8 @@ cmd + alt + ctrl - left  : kwmc display -f prev
 cmd + alt + ctrl - l     : kwmc display -f next 
 cmd + alt + ctrl - right : kwmc display -f next
 
+cmd + alt + ctrl - space : kwmc window -t focused
+
 cmd - 0x2A              :   khd -w "aasvi93@hotmail.com"
 cmd - 7                 :   khd -w "\\"
 cmd - 8                 :   khd -w "{"

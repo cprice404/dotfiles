@@ -164,7 +164,7 @@ switcher - q            :   khd -e "mode activate info"
 switcher - r            :   khd -e "reload" # reload config;\
                             kwmc config reload
 
-switcher - return       :   open -na /Applications/Hyper.app;\
+switcher - return       :   osascript ~/bin/new-iterm-window.scpt;\
                             khd -e "mode activate default"
 
 switcher - h            :   kwmc window -f west

@@ -1,0 +1,2 @@
+autocmd LocationChange .*                             js modes.passAllKeys = false
+autocmd LocationChange www\\.fastmail\\.com           js modes.passAllKeys = true

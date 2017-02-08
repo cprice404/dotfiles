@@ -1,6 +1,7 @@
 [core]
 	editor = vim
 	excludesfile = /Users/cpri/.gitignore-global
+	pager = less -FMRiX
 [color]                                                                                     
         ui = true                                                                           
                                                                                             
@@ -12,6 +13,7 @@
         rsub = "! git submodule init && git submodule update"
 	pr = "! f() { git fetch $1 pull/$2/head:PR-$2-$3 && git checkout PR-$2-$3;}; f"
         prupdate = "! f() { git fetch $1 pull/$2/head && git merge FETCH_HEAD;}; f"
+	dag = log --graph --format='format:%C(yellow)%h%C(reset) %C(blue)\"%an\" <%ae>%C(reset) %C(magenta)%cr%C(reset)%C(auto)%d%C(reset)%n%s' --date-order
 
 [user]
 	name = Price

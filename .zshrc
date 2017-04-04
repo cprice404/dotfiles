@@ -104,3 +104,5 @@ alias bnuke='brazil ws sync --md && brazil ws sync && brazil-recursive-cmd --all
 alias odin='ssh -f -N -L 2009:127.0.0.1:2009 cpri.aka.corp.amazon.com'
 alias bstatus='brazil-recursive-cmd --allPackages "echo && pwd && echo && git status"'
 alias ball='brazil-recursive-cmd --allPackages'
+
+source "/Users/cpri/.midas/midas-tools-aliases"

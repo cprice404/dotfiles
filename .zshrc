@@ -105,4 +105,6 @@ alias odin='ssh -f -N -L 2009:127.0.0.1:2009 cpri.aka.corp.amazon.com'
 alias bstatus='brazil-recursive-cmd --allPackages "echo && pwd && echo && git status"'
 alias ball='brazil-recursive-cmd --allPackages'
 
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+
 source "/Users/cpri/.midas/midas-tools-aliases"

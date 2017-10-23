@@ -106,5 +106,6 @@ alias bstatus='brazil-recursive-cmd --allPackages "echo && pwd && echo && git st
 alias ball='brazil-recursive-cmd --allPackages'
 
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+eval "$(rbenv init -)"
 
 source "/Users/cpri/.midas/midas-tools-aliases"

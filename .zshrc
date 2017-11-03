@@ -97,7 +97,7 @@ source $ZSH/oh-my-zsh.sh
 
 . /usr/local/etc/profile.d/z.sh
 
-export PATH=$HOME/bin:$BRAZIL_CLI_BIN:~/Library/Python/2.7/bin:$PATH
+export PATH=$HOME/bin:$BRAZIL_CLI_BIN:$PATH:$HOME/.toolbox/bin:~/Library/Python/2.7/bin
 
 alias bb='brazil-build'
 alias bnuke='brazil ws sync --md && brazil ws sync && brazil-recursive-cmd --allPackages brazil-build release'

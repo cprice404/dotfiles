@@ -1,3 +1,0 @@
-#rsync --verbose --recursive --times --perms --links --stats --delete --exclude .metadata --exclude ".svn" --exclude "bin-debug" --exclude ".actionScriptProperties" --exclude ".flexProperties" --exclude ".project" --exclude ".settings" --exclude ".flexLibProperties" --exclude "html-template" --exclude ".classpath" --exclude "deploy" --exclude "syzygy/output" $*
-#rsync --dry-run --verbose --recursive --times --perms --links --stats --delete $*
-cprsync --dry-run $*

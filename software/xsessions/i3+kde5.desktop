@@ -1,7 +1,0 @@
-[Desktop Entry]
-Encoding=UTF-8
-Type=XSession
-Exec=/home/cprice/software/start-kde-bin/startkde5-with-i3
-TryExec=/home/cprice/software/start-kde-bin/startkde5-with-i3
-Name=KDE with i3
-Comment=The desktop made by KDE

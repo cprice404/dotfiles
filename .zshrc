@@ -81,6 +81,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(
   git
   gradle
+  z
 )
 
 source $ZSH/oh-my-zsh.sh

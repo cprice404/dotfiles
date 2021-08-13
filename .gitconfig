@@ -1,6 +1,6 @@
 [core]
 	editor = vim
-	excludesfile = /home/cprice/.gitignore-global
+	excludesfile = /Users/cprice/.gitignore-global
 [user]
 	name = Chris Price
 	email = chris@momentohq.com

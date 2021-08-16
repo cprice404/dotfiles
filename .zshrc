@@ -120,3 +120,6 @@ export GRADLE_COMPLETION_UNQUALIFIED_TASKS="true"
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+export PATH="$HOME/.nodenv/bin:$PATH"
+eval "$(nodenv init -)"

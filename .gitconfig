@@ -13,3 +13,5 @@
         changelog = "log --pretty=format:'%ad - %aN <%aE>%n * %s (%h)%n' --date=short --date-order --no-merges --patience -M -C -C -c"
 [pull]
 	ff = only
+[init]
+	defaultBranch = main

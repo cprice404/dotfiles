@@ -123,3 +123,11 @@ export SDKMAN_DIR="$HOME/.sdkman"
 
 export PATH="$HOME/.nodenv/bin:$PATH"
 eval "$(nodenv init -)"
+
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
+
+# Created by `pipx` on 2021-08-26 23:05:40
+export PATH="$PATH:/Users/cprice/.local/bin"

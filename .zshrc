@@ -6,7 +6,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/cprice/.oh-my-zsh"
@@ -84,6 +84,8 @@ plugins=(
   z
 )
 
+export fpath=($fpath /Users/cprice/.momento/autocomplete)
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -131,3 +133,15 @@ eval "$(pyenv init -)"
 
 # Created by `pipx` on 2021-08-26 23:05:40
 export PATH="$PATH:/Users/cprice/.local/bin"
+
+export PATH="$PATH:/Users/cprice/.momento/bin"
+
+export AWS_PAGER=
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/cprice/software/google-cloud-sdk/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/cprice/software/google-cloud-sdk/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/cprice/software/google-cloud-sdk/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/cprice/software/google-cloud-sdk/google-cloud-sdk/completion.zsh.inc'; fi
+
+eval "$(rbenv init - zsh)"
